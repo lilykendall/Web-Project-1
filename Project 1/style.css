@@ -1,0 +1,80 @@
+/*This code has been copied and adapted from the Bootstrap Checkout code example
+Credit to Mark Otto, Jacob Thornton and Bootstrap contributors
+ The edits and adjustments of this page were modeled after Project 1 by Kevin Angstadt
+ edits done by enmity L. Field and Team
+ Link to webpage for reference: https://getbootstrap.com/docs/4.0/examples/sign-in/
+/* comma seperated selectors are an "or" operatoin */
+
+header, footer{
+    background-color: #AA182C;
+    color: white;
+    border-radius: 1rem; /*rem is a unit of measuremement equal to the size of the root element's text */
+    padding: 1rem;
+
+
+}
+
+header img{
+    width: 100% 
+}
+
+header nav li{
+    display: inline;
+}
+
+header nav li a{
+    padding: 1rem;
+    background-color: #4b2b23;
+    color: #8d984c;
+    text-decoration: none;
+    font-weight: bold; 
+    font-size: larger;
+    background-color: #f2c200;
+    color: #4B2B23;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+    }
+
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header figure{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 40%;
+    order: 2;
+}
+
+header div{
+    flex-grow: 4;
+    flex-basis: 60%;
+    order: 1;
+}
+
+aside{
+    align-self: flex-start;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    flex-basis: 30%;
+}
+
+section{
+    flex-grow: 1; 
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+
+article > h1{
+    display: flex;
+    font-size: x-large;
+    text-align: right;
+    border-bottom: 2px solid black;
+    flex-direction: row-reverse;
+}
